@@ -7,7 +7,7 @@
 Esta configuração personalizada do Neovim foi montada para fornecer uma experiência moderna, poderosa e modular para desenvolvimento.
 
 <p align="center">
-  <img src="imagens/preview.png" alt="Preview do Neovim" width="600">
+  <img src="imagens/preview.png" alt="Preview do Neovim" width="1200">
 </p>
 
 ---
