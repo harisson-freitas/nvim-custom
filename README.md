@@ -9,7 +9,6 @@ Esta configuração personalizada do Neovim foi montada para fornecer uma experi
 <p align="center">
   <img src="images/preview.png" alt="Preview do Neovim" width="1200">
   <br>
-  <br>
   <img src="images/themes.png" alt="Themes Neovim" width="1200">
 </p>
 
