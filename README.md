@@ -1,4 +1,3 @@
-
 # ✨ Neovim Configuration by Harry
 
 ![Neovim Version](https://img.shields.io/badge/Neovim-%3E=0.9-blue)
@@ -6,6 +5,10 @@
 ![Plugins Managed by Lazy.nvim](https://img.shields.io/badge/Plugin%20Manager-Lazy.nvim-purple)
 
 Esta configuração personalizada do Neovim foi montada para fornecer uma experiência moderna, poderosa e modular para desenvolvimento.
+
+<p align="center">
+  <img src="imagens/preview.png" alt="Preview do Neovim" width="600">
+</p>
 
 ---
 
@@ -36,31 +39,31 @@ Esta configuração personalizada do Neovim foi montada para fornecer uma experi
 
 Contém configurações individuais para cada plugin instalado.
 
-| Arquivo                      | Descrição                                                         |
-|------------------------------|------------------------------------------------------------------|
-| `init.lua`                   | Carregamento central dos plugins.                                |
-| `vim-maximizer.lua`          | Maximização de splits e janelas.                                 |
-| `formatting.lua`             | Ferramentas de formatação de código.                             |
-| `autopairs.lua`              | Fecha automaticamente parênteses, colchetes, etc.                |
-| `telescope.lua`              | Busca fuzzy e previews.                                          |
-| `substitute.lua`             | Substituição avançada de texto.                                 |
-| `copilot.lua`                | Integração com GitHub Copilot.                                  |
-| `alpha.lua`                  | Tela inicial (dashboard) personalizada.                         |
-| `linting.lua`                | Linters para análise estática.                                  |
-| `nvim-cmp.lua`               | Autocompletion avançado.                                        |
-| `trouble.lua`                | Diagnostics e listas de problemas.                              |
-| `todo-comments.lua`          | Gerencia comentários TODO, FIXME, etc.                          |
-| `auto-session.lua`           | Salvamento/restauração automática de sessões.                   |
-| `nvim-tree.lua`              | Explorador de arquivos em árvore.                               |
-| `lualine.lua`                | Barra de status moderna.                                        |
-| `colorscheme.lua`            | Tema de cores.                                                  |
-| `comment.lua`                | Comentar/descomentar código facilmente.                         |
-| `dressing.lua`               | Pop-ups e seleções melhorados.                                 |
-| `which-key.lua`              | Ajuda contextual para atalhos.                                 |
-| `treesitter.lua`             | Syntax highlighting avançado.                                   |
-| `indent-blankline.lua`       | Guias de indentação visuais.                                   |
-| `bufferline.lua`             | Barra de abas moderna.                                         |
-| `surround.lua`               | Manipulação fácil de parênteses, aspas, etc.                    |
+| Arquivo                | Descrição                                         |
+| ---------------------- | ------------------------------------------------- |
+| `init.lua`             | Carregamento central dos plugins.                 |
+| `vim-maximizer.lua`    | Maximização de splits e janelas.                  |
+| `formatting.lua`       | Ferramentas de formatação de código.              |
+| `autopairs.lua`        | Fecha automaticamente parênteses, colchetes, etc. |
+| `telescope.lua`        | Busca fuzzy e previews.                           |
+| `substitute.lua`       | Substituição avançada de texto.                   |
+| `copilot.lua`          | Integração com GitHub Copilot.                    |
+| `alpha.lua`            | Tela inicial (dashboard) personalizada.           |
+| `linting.lua`          | Linters para análise estática.                    |
+| `nvim-cmp.lua`         | Autocompletion avançado.                          |
+| `trouble.lua`          | Diagnostics e listas de problemas.                |
+| `todo-comments.lua`    | Gerencia comentários TODO, FIXME, etc.            |
+| `auto-session.lua`     | Salvamento/restauração automática de sessões.     |
+| `nvim-tree.lua`        | Explorador de arquivos em árvore.                 |
+| `lualine.lua`          | Barra de status moderna.                          |
+| `colorscheme.lua`      | Tema de cores.                                    |
+| `comment.lua`          | Comentar/descomentar código facilmente.           |
+| `dressing.lua`         | Pop-ups e seleções melhorados.                    |
+| `which-key.lua`        | Ajuda contextual para atalhos.                    |
+| `treesitter.lua`       | Syntax highlighting avançado.                     |
+| `indent-blankline.lua` | Guias de indentação visuais.                      |
+| `bufferline.lua`       | Barra de abas moderna.                            |
+| `surround.lua`         | Manipulação fácil de parênteses, aspas, etc.      |
 
 ---
 
@@ -74,12 +77,14 @@ Contém configurações individuais para cada plugin instalado.
 ## ⚙️ Como usar
 
 1️⃣ Instale os requisitos:
+
 - Neovim (>= 0.9)
 - Lazy.nvim (gerenciador de plugins)
 
 2️⃣ Copie os arquivos para `~/.config/nvim`
 
 3️⃣ Abra o Neovim e execute:
+
 ```vim
 :Lazy sync
 ```
@@ -131,31 +136,31 @@ This is a custom Neovim configuration designed to deliver a modern, powerful, an
 
 Contains individual configurations for each installed plugin.
 
-| File                         | Description                                                      |
-|------------------------------|-----------------------------------------------------------------|
-| `init.lua`                   | Central plugin loader.                                          |
-| `vim-maximizer.lua`          | Maximizes splits and windows.                                   |
-| `formatting.lua`             | Code formatting tools.                                          |
-| `autopairs.lua`              | Automatically closes brackets, parentheses, etc.                |
-| `telescope.lua`              | Fuzzy search and previews.                                      |
-| `substitute.lua`             | Advanced text substitution.                                     |
-| `copilot.lua`                | GitHub Copilot integration.                                     |
-| `alpha.lua`                  | Custom startup dashboard.                                       |
-| `linting.lua`                | Linters for static analysis.                                    |
-| `nvim-cmp.lua`               | Advanced autocompletion.                                        |
-| `trouble.lua`                | Diagnostics and issue lists.                                    |
-| `todo-comments.lua`          | Highlights and manages TODO, FIXME comments.                    |
-| `auto-session.lua`           | Automatically saves/restores sessions.                          |
-| `nvim-tree.lua`              | File explorer tree.                                             |
-| `lualine.lua`                | Modern statusline.                                              |
-| `colorscheme.lua`            | Color scheme configuration.                                     |
-| `comment.lua`                | Easily comment/uncomment code.                                  |
-| `dressing.lua`               | Enhanced pop-ups and selection menus.                           |
-| `which-key.lua`              | Contextual key mapping help.                                    |
-| `treesitter.lua`             | Advanced syntax highlighting.                                   |
-| `indent-blankline.lua`       | Visual indent guides.                                           |
-| `bufferline.lua`             | Stylish buffer/tab line.                                        |
-| `surround.lua`               | Easily manipulate brackets, quotes, etc.                        |
+| File                   | Description                                      |
+| ---------------------- | ------------------------------------------------ |
+| `init.lua`             | Central plugin loader.                           |
+| `vim-maximizer.lua`    | Maximizes splits and windows.                    |
+| `formatting.lua`       | Code formatting tools.                           |
+| `autopairs.lua`        | Automatically closes brackets, parentheses, etc. |
+| `telescope.lua`        | Fuzzy search and previews.                       |
+| `substitute.lua`       | Advanced text substitution.                      |
+| `copilot.lua`          | GitHub Copilot integration.                      |
+| `alpha.lua`            | Custom startup dashboard.                        |
+| `linting.lua`          | Linters for static analysis.                     |
+| `nvim-cmp.lua`         | Advanced autocompletion.                         |
+| `trouble.lua`          | Diagnostics and issue lists.                     |
+| `todo-comments.lua`    | Highlights and manages TODO, FIXME comments.     |
+| `auto-session.lua`     | Automatically saves/restores sessions.           |
+| `nvim-tree.lua`        | File explorer tree.                              |
+| `lualine.lua`          | Modern statusline.                               |
+| `colorscheme.lua`      | Color scheme configuration.                      |
+| `comment.lua`          | Easily comment/uncomment code.                   |
+| `dressing.lua`         | Enhanced pop-ups and selection menus.            |
+| `which-key.lua`        | Contextual key mapping help.                     |
+| `treesitter.lua`       | Advanced syntax highlighting.                    |
+| `indent-blankline.lua` | Visual indent guides.                            |
+| `bufferline.lua`       | Stylish buffer/tab line.                         |
+| `surround.lua`         | Easily manipulate brackets, quotes, etc.         |
 
 ---
 
@@ -169,12 +174,14 @@ Contains individual configurations for each installed plugin.
 ## ⚙️ How to Use
 
 1️⃣ Install prerequisites:
+
 - Neovim (>= 0.9)
 - Lazy.nvim (plugin manager)
 
 2️⃣ Copy files to `~/.config/nvim`
 
 3️⃣ Open Neovim and run:
+
 ```vim
 :Lazy sync
 ```
