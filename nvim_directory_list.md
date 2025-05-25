@@ -1,0 +1,40 @@
+
+# 📁 Neovim Directory Listing (Markdown Tree)
+
+- nvim/
+  - init.lua
+  - lazy-lock.json
+  - lua/
+    - harry/
+      - lazy.lua
+      - core/
+        - init.lua
+        - keymaps.lua
+        - options.lua
+      - plugins/
+        - init.lua
+        - vim-maximizer.lua
+        - formatting.lua
+        - autopairs.lua
+        - telescope.lua
+        - substitute.lua
+        - copilot.lua
+        - alpha.lua
+        - linting.lua
+        - nvim-cmp.lua
+        - trouble.lua
+        - todo-comments.lua
+        - auto-session.lua
+        - nvim-tree.lua
+        - lualine.lua
+        - colorscheme.lua
+        - comment.lua
+        - dressing.lua
+        - which-key.lua
+        - treesitter.lua
+        - indent-blankline.lua
+        - bufferline.lua
+        - surround.lua
+        - lsp/
+          - lspconfig.lua
+          - mason.lua
